@@ -1,0 +1,41 @@
+body {
+	background: #000;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #fff;
+
+	a {
+		cursor: pointer;
+		display: inline;
+		&:hover {
+			color: #7B68EE;
+		}
+	}
+
+	a#change {
+		margin-left: 20px;
+	}
+
+	a#solve {
+		margin-right: 20px;
+		float:right;
+	}
+
+	form {
+		input {
+			font-family: inherit;
+			margin-left: 10px;
+			border: 0;
+			outline: 0;
+			width: 70px;
+			height: 30px;
+			position: relative;
+			top: -2px;
+			text-align:center;
+		}
+	}
+
+	canvas {
+		padding-top: 10px;
+	}
+}
+
