@@ -1,6 +1,6 @@
-==Maze
+Maze
 
-===Problem:
+Problem:
 
 Included below are the instructions for the challenge, along with markup for the coding test. Please complete and send back at your earliest convenience. Your solution will be evaluated based on the correctness, elegance, readability, and performance of your CSS, HTML, and Javascript. There is no official time limit for the coding test. Please do not post your solution in a publicly accessible location on the internet. 
 
@@ -32,7 +32,6 @@ Bonus
 5) Able to take large input values for width and height 
 6) Draw a path that connects entrance to exit
 
-===Solution:
 A quick summary of my solution
 
 0. Uses depth first search implemented using recursive backtracking to generate a maze.
